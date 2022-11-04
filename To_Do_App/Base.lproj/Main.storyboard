@@ -205,7 +205,7 @@
         <!--New Todo-->
         <scene sceneID="kRA-hh-9Ga">
             <objects>
-                <viewController id="tZo-5J-QdO" sceneMemberID="viewController">
+                <viewController id="tZo-5J-QdO" customClass="NewTodoVC" customModule="To_Do_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3CS-1V-xIx">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,6 +230,9 @@
                                 <rect key="frame" x="241" y="261.66666666666669" width="133" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change Photo"/>
+                                <connections>
+                                    <action selector="changePhotoButtonClicked:" destination="tZo-5J-QdO" eventType="touchUpInside" id="7hQ-dI-eHW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todo Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9y2-7k-Kag">
                                 <rect key="frame" x="16" y="299.66666666666669" width="358" height="24"/>
@@ -248,6 +251,9 @@
                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Add"/>
+                                <connections>
+                                    <action selector="addButtonClicked:" destination="tZo-5J-QdO" eventType="touchUpInside" id="kkW-KG-4nI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GOl-V0-AV2"/>
@@ -278,6 +284,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Todo" id="vvd-6E-L5h"/>
+                    <connections>
+                        <outlet property="detailsTextView" destination="geh-K2-bt2" id="opY-MW-75O"/>
+                        <outlet property="titleTextField" destination="gsU-I5-bkT" id="uZZ-bs-KID"/>
+                        <outlet property="todoImageView" destination="o5m-fL-yiQ" id="2ur-1A-Hh2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fA1-sK-UrR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

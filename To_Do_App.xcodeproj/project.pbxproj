@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D152E7A29157D8E00CDDD6B /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D152E7929157D8E00CDDD6B /* DetailsVC.swift */; };
+		6D152E7C2915987E00CDDD6B /* NewTodoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D152E7B2915987E00CDDD6B /* NewTodoVC.swift */; };
 		6D1B927C2915670D004D7C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B927B2915670D004D7C03 /* AppDelegate.swift */; };
 		6D1B927E2915670D004D7C03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B927D2915670D004D7C03 /* SceneDelegate.swift */; };
 		6D1B92802915670D004D7C03 /* TodoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B927F2915670D004D7C03 /* TodoVC.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		6D152E7929157D8E00CDDD6B /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		6D152E7B2915987E00CDDD6B /* NewTodoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoVC.swift; sourceTree = "<group>"; };
 		6D1B92782915670D004D7C03 /* To_Do_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = To_Do_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1B927B2915670D004D7C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D1B927D2915670D004D7C03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				6D1B927D2915670D004D7C03 /* SceneDelegate.swift */,
 				6D1B927F2915670D004D7C03 /* TodoVC.swift */,
 				6D152E7929157D8E00CDDD6B /* DetailsVC.swift */,
+				6D152E7B2915987E00CDDD6B /* NewTodoVC.swift */,
 				6D1B92922915675F004D7C03 /* Todo.swift */,
 				6D1B929429156784004D7C03 /* TodoCell.swift */,
 				6D1B92812915670D004D7C03 /* Main.storyboard */,
@@ -153,6 +156,7 @@
 				6D1B92802915670D004D7C03 /* TodoVC.swift in Sources */,
 				6D1B929529156784004D7C03 /* TodoCell.swift in Sources */,
 				6D1B927C2915670D004D7C03 /* AppDelegate.swift in Sources */,
+				6D152E7C2915987E00CDDD6B /* NewTodoVC.swift in Sources */,
 				6D1B927E2915670D004D7C03 /* SceneDelegate.swift in Sources */,
 				6D152E7A29157D8E00CDDD6B /* DetailsVC.swift in Sources */,
 				6D1B92862915670D004D7C03 /* To_Do_App.xcdatamodeld in Sources */,
