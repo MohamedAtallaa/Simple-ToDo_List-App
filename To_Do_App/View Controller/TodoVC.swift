@@ -15,6 +15,7 @@ class TodoVC: UIViewController {
     @IBOutlet weak var todostableView: UITableView!
 
     override func viewDidLoad() {
+        self.todos = TodoStorage.getTodos()
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         todostableView.dataSource = self
@@ -37,6 +38,7 @@ class TodoVC: UIViewController {
         if let todo = todo {
             todos.append(todo)
             todostableView.reloadData()
+            TodoStorage.storeData(todo: todo)
         }
     }
     
@@ -44,6 +46,7 @@ class TodoVC: UIViewController {
         if let index = (notification.userInfo?["index"]) as? Int {
             todos.remove(at: index)
             todostableView.reloadData()
+            TodoStorage.todoDeleted(index: index)
         }
     }
     
@@ -53,6 +56,7 @@ class TodoVC: UIViewController {
         {
             todos[index] = todo
             todostableView.reloadData()
+            TodoStorage.updateTodo(todo: todo, index: index)
         }
     }
     

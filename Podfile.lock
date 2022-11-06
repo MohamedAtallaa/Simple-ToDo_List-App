@@ -1,0 +1,16 @@
+PODS:
+  - CleanyModal (1.0.3)
+
+DEPENDENCIES:
+  - CleanyModal
+
+SPEC REPOS:
+  trunk:
+    - CleanyModal
+
+SPEC CHECKSUMS:
+  CleanyModal: 5e5fece5b1de97b47ea091f6390ec2b16bfa2f20
+
+PODFILE CHECKSUM: c5bf9c6ed37d0f8d68580ba13f66dbc8b6aae8e7
+
+COCOAPODS: 1.11.3

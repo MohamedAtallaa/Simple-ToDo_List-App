@@ -55,6 +55,8 @@ class NewTodoVC: UIViewController {
                 
                 self.titleTextField.text = ""
                 self.detailsTextView.text = ""
+                self.todoImageView.image = UIImage(named: "noImage")
+                
                 
                 // move to the todoList page
                 self.tabBarController?.selectedIndex = 0
