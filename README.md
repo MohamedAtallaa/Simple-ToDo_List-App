@@ -12,7 +12,7 @@ A **CRUD** App.
 
 
 
-<img src= "https://user-images.githubusercontent.com/100219531/200311696-bed77e6b-5bb3-404a-8d76-1c7074ec1ee6.png" width=50% height=50%>
+<img src= "https://user-images.githubusercontent.com/100219531/200311696-bed77e6b-5bb3-404a-8d76-1c7074ec1ee6.png" width=30% height=30%>
 
 ![Simulator Screen Shot - iPhone 14 Pro Max - 2022-11-07 at 14 24 38](https://user-images.githubusercontent.com/100219531/200309803-38a692a9-3592-41b9-8d56-0f28ff30b764.png)
 ![Simulator Screen Shot - iPhone 14 Pro Max - 2022-11-07 at 14 24 43](https://user-images.githubusercontent.com/100219531/200309811-46cadbef-2f2d-4338-a12d-6514b4935fb9.png)
