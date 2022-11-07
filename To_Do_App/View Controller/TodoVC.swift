@@ -15,9 +15,10 @@ class TodoVC: UIViewController {
     @IBOutlet weak var todostableView: UITableView!
 
     override func viewDidLoad() {
+        
         self.todos = TodoStorage.getTodos()
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         todostableView.dataSource = self
         todostableView.delegate = self
         

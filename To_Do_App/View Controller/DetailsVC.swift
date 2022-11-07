@@ -64,7 +64,7 @@ class DetailsVC: UIViewController {
             imageName: "warning_icon")
 
         alert.addAction(title: "Yes", style: .default) { _ in
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "deletedTodo"), object: nil, userInfo: ["index" : self.index])
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "deletedTodo"), object: nil, userInfo: ["index" : self.index!])
             let alert = MyAlertViewController(title: "Delete", message: "Todo deleted successfully!")
             alert.addAction(title: "OK", style: .default) { _ in
                 self.navigationController?.popViewController(animated: true)
