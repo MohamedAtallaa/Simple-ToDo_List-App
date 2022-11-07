@@ -9,8 +9,7 @@ A **CRUD** App.
 ### NotificationCenter class 'to enables the broadcast of information to registered observers).
 ### Core Data (Saving, Updating & Deleting)
 ### Adding Pods to the Project 
-
-
+## App Preview
 
 <img src = "https://user-images.githubusercontent.com/100219531/200311696-bed77e6b-5bb3-404a-8d76-1c7074ec1ee6.png" width=50% height=30%>
 
