@@ -6,7 +6,7 @@ A **CRUD** App.
 - Auto layout
 - TapleViews & dequeueing
 - Passing data through Views
-- NotificationCenter class 'to enables the broadcast of information to registered observers).
+- NotificationCenter class 'to enables the broadcast of information to registered observers'.
 - Core Data (Saving, Updating & Deleting)
 - Adding Pods to the Project 
 
