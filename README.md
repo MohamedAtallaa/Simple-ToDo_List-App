@@ -14,5 +14,5 @@ A **CRUD** App.
 
 
 
-https://user-images.githubusercontent.com/100219531/200306910-abb63af1-4361-42f7-88ea-603653adebf9.mp4
+
 
