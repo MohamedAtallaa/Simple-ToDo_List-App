@@ -2,13 +2,12 @@
 A **CRUD** App.
 
 ### What I learned 
-- Getting familier with UIKit framework
-- Auto layout
-- TapleViews
-- Passing data through Views
-- NotificationCenter class 'to enables the broadcast of information to registered observers'.
-- Core Data (Saving, Updating & Deleting)
-- Adding Pods to the Project 
+- Getting familier with UIKit framework.
+- Auto layout.
+- TapleViews.
+- Passing data through Views using NotificationCenter.
+- Core Data (Saving, Updating & Deleting).
+- Adding Pods to the Project .
 
 ## App Preview
 
